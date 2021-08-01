@@ -13,17 +13,42 @@
       - PLN
       - złoto
       - srebro
-  
-- wykresy
-  - czas-cena
-    - rozny kolor w zaleznosci od tego czy jest tendencja spadkowa czy wzrostowa
-    - zbudowany slupek od minimalnej do maksymalnej ceny w zaleznosci od interwalu czasowego
+    - https://bitbay.net/pl/api-prywatne
+    - https://binance-docs.github.io/apidocs/spot/en/
+    - https://bittrex.github.io/api/v3
+    - https://coinmarketcap.com/api/
+      - dev TODO: 5 sda days - 15 sda days
+        - rozpoznanie API
+        - zbudowac importer per giełda
+        - entity: 
+        - dto
+        - repository
+        - serwis
+        - serwis webowy (thymeleaf)
+        - serwis resstowy (angulara)
+        - UI Angular
 
-- transakcje
+- wykresy   1 sda days - 3 sda days
+  - czas-cena
+  - rozny kolor w zaleznosci od tego czy jest tendencja spadkowa czy wzrostowa 
+  - zbudowany slupek od minimalnej do maksymalnej ceny w zaleznosci od interwalu czasowego
+  - dev TODO:
+    - wybór biblioteki
+    - sortowanie
+    - filtrowanie
+    - kontroler
+    - UI Angular
+  
+
+- transakcje 2 sda days - 4 sda days
   - mozliwosc przeprowadzenia transakcji
   - historia
     - informacja o naszych transakcjach
-  
+  - dev TODO:
+    - kontroler
+    - UI Angular
+    - integracja z portfelem 
+ 
 ### REFINEMENTS
 - wyswietlanie TOP/sortowanie
 - maksymalna i minnimalna cena w miesiacu
